@@ -14,4 +14,6 @@ Testing: <a href="https://facebook.github.io/jest/">Jest</a>
 The React pattern that is used here is the `Duck pattern`. One Duck is supposed to represent a feature from your app like `fart, friends, payment,...`. Actions and reducers related to a feature will be created under its Duck folder.
 
 ##How to use it
-run the command `git clone https://github.com/GeniaT/react_redux_firebaseBoilerplate.git`, run `npm run dev-erver` and you are ready to open the boilerplate app and start tuning it!
+Run the command `git clone https://github.com/GeniaT/react_redux_firebaseBoilerplate.git`,
+If you plan to use Firebase for backend, create your app first on https://console.firebase.google.com/u/0/, get the config info for your app and insert it in `utils/firebase` file.
+Run `npm run dev-server` and you are ready to open the boilerplate app and start tuning it!
