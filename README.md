@@ -1,5 +1,5 @@
 # React Redux Firebase boilerplate
-##Used Stack
+## Used Stack
 React library for app composability
 Redux for state management
 Firebase for Authentication and database.
