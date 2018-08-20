@@ -1,15 +1,15 @@
 export const actionADuck3 = (a, b) => ({
-  type: 'ACTIONADUCK1',
+  type: 'ACTIONADUCK3',
   a,
   b
 })
 
 export const actionBDuck3 = (a) => ({
-  type: 'ACTIONBDUCK1',
+  type: 'ACTIONBDUCK3',
   a
 })
 
 export const actionCDuck3 = (a) => ({
-  type: 'ACTIONCDUCK1',
+  type: 'ACTIONCDUCK3',
   a
 })

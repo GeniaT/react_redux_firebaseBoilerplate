@@ -13,6 +13,10 @@
   },
   "author": "Genia",
   "license": "ISC",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "dependencies": {
     "@material-ui/core": "^1.5.0",
     "babel-cli": "^6.26.0",
