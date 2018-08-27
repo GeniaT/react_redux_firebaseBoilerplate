@@ -1,40 +1,10 @@
 import { combineReducers } from 'redux';
-
-
-export const actionADuck1 = (a, b) => ({
-  type: 'ACTIONADUCK1',
-  a,
-  b
-})
-
-export const actionBDuck1 = (a) => ({
-  type: 'ACTIONBDUCK1',
-  a
-})
-
-export const actionCDuck1 = (a) => ({
-  type: 'ACTIONCDUCK1',
-  a
-})
-
-const initialState = [];
-
-export default function reducerName1(state = initialState, action) {
-  switch (action.type) {
-    case 'ACTIONADUCK1':
-      return state;
-      break;
-    case 'ACTIONBDUCK1':
-      return state;
-      break;
-    case 'ACTIONCDUCK1':
-      return state;
-      break;
-    default:
-      return state
-  }
-}
+import reducerName1 from '../ducks/duck1/reducers';
+import reducerName2 from '../ducks/duck2/reducers';
+import reducerName3 from '../ducks/duck3/reducers';
 
 export const appReducer = combineReducers({
   reducerName1,
+  reducerName2,
+  reducerName3
 });
