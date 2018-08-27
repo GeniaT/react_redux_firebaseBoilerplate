@@ -1,24 +1,19 @@
 {
-  "name": "react_redux_firebaseboilerplate",
+  "name": "Ordering",
   "version": "1.0.0",
-  "description": "React library for app composability\r Redux for state management\r Firebase for Authentication and database.",
-  "main": "webpack.config.js",
+  "description": "Check and edit orders",
+  "main": "index.js",
   "scripts": {
+    "dev-server": "webpack-dev-server",
+    "build:dev": "webpack",
     "test": "jest",
-    "dev-server": "webpack-dev-server"
+    "startDev": "webpack-dev-server --open --config webpack.dev.js",
+    "build:prod": "webpack --config webpack.prod.js",
+    "start": "node server/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GeniaT/react_redux_firebaseBoilerplate.git"
-  },
-  "author": "Genia",
+  "author": "Genia Tchistiakov",
   "license": "ISC",
-  "jest": {
-    "verbose": true,
-    "testURL": "http://localhost/"
-  },
   "dependencies": {
-    "@material-ui/core": "^1.5.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
@@ -27,11 +22,12 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
-    "firebase": "^5.0.4",
-    "live-server": "^1.2.0",
     "node-sass": "^4.9.0",
+    "normalize.css": "^8.0.0",
     "react": "^16.4.0",
+    "react-dates": "^16.7.0",
     "react-dom": "^16.4.0",
+    "react-modal": "^3.4.5",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "redux": "^3.7.2",
@@ -46,9 +42,5 @@
   "devDependencies": {
     "jest": "^22.4.4",
     "prop-types": "^15.6.1"
-  },
-  "bugs": {
-    "url": "https://github.com/GeniaT/react_redux_firebaseBoilerplate/issues"
-  },
-  "homepage": "https://github.com/GeniaT/react_redux_firebaseBoilerplate#readme"
+  }
 }
